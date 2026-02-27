@@ -54,29 +54,29 @@ Use of network interception to simulate API responses and ensure greater predict
 ---
 <br/>
 
-Note: All scenarios were developed in TypeScript, leveraging static typing, better code organization, and greater reliability during test development. This choice aims to increase the robustness of automation, reduce errors during development, and facilitate the scalability of the solution.
+Observação: Todos os cenários foram desenvolvidos em TypeScript, explorando tipagem estática, melhor organização do código e maior confiabilidade durante o desenvolvimento dos testes. Essa escolha visa aumentar a robustez da automação, reduzir erros em tempo de desenvolvimento e facilitar a escalabilidade da solução.
 
 <br/>
 
 ---
 <br/>
 
-# Useful commands
+# Comandos úteis
 
-### Blocking npm execution in Terminal in VS Code:
+### Bloqueio de execução do npm em Terminal no VS Code:
 Get-ExecutionPolicy       
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned  
 
-### Code generation:
+### Geração de Código:
 npx playwright codegen
 
-### Execution:
+### Execução:
 npx playwright test
 
-### Execution in UI:
+### Execução em UI:
 npx playwright test --ui
 
-### Execution in Debug:
+### Execução em Debug:
 npx playwright test --ui --debug
 
 <br/>
@@ -84,7 +84,7 @@ npx playwright test --ui --debug
 ---
 <br/>
 
-### To run POC:
+### Para rodar POC:
 npx playwright test --ui --debug 
 
 <br/>
