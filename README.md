@@ -49,15 +49,6 @@ Reutilização de estado de autenticação por meio do storageState, reduzindo t
 ### [04] Interceptação de APIs
 Uso de interceptação de rede para simular respostas de APIs e garantir maior previsibilidade e isolamento dos testes E2E.
 
-### [05] Estrutura de Testes (com BDD e Playwright Puro)
-Implementação dos testes utilizando BDD ou a sintaxe nativa do Playwright Test, com foco em boa nomenclatura, legibilidade e fácil entendimento dos cenários.
-
-### [06] Geração Automática de Relatórios
-Geração automática de relatórios de execução (HTML/trace), facilitando a análise de resultados e a identificação de falhas.
-
-### [07] Integração Contínua com Jenkins
-Execução automatizada dos testes em pipeline CI, demonstrando integração com Jenkins e preparo para execução em ambientes de nuvem.
-
 <br/>
 
 ---
@@ -93,11 +84,8 @@ npx playwright test --ui --debug
 ---
 <br/>
 
-### Para rodar POC 01:
+### Para rodar POC:
 npx playwright test --ui --debug 
-
-### Para rodar POC 02:
-npm test
 
 <br/>
 
