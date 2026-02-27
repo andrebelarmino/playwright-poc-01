@@ -1,53 +1,53 @@
 # Playwright POC (Proof of Concept)
 
-### When to use Playwright
-- Ideal for modern teams seeking scalable, reliable E2E test automation ready for modern web applications, with local execution and native integration with cloud CI/CD pipelines.
+### Quando usar Playwright
+- Ideal para equipes modernas que buscam automação de testes E2E escalável, confiável e preparada para aplicações web modernas, com execução local e integração nativa com pipelines CI/CD em nuvem.
 
-### Strengths
-- Complete E2E automation, with parallel and scalable execution.
-- Native support for multiple browsers (Chromium, Firefox, and WebKit/Safari).
-- Advanced debugging features (trace viewer, screenshots, videos).
-- Modern architecture, ready for continuous evolution and new testing scenarios.
+### Pontos fortes
+- Automação E2E completa, com execução paralela e escalável.
+- Suporte nativo a múltiplos navegadores (Chromium, Firefox e WebKit/Safari).
+- Recursos avançados de depuração (trace viewer, screenshots, vídeos).
+- Arquitetura moderna, preparada para evolução contínua e novos cenários de teste.
 
-### Limitations
-- Does not automate native mobile applications (only mobile browser emulation).
-- Has an initial learning curve, especially in parallelization, context isolation, and advanced use of selectors.
-- Smaller community than Selenium, but growing rapidly and with strong official support from Microsoft.
+### Limitações
+- Não automatiza aplicativos móveis nativos (apenas emulação de navegadores mobile).
+- Possui curva de aprendizado inicial, especialmente em paralelização, isolamento de contexto e uso avançado de seletores.
+- Comunidade menor que Selenium, porém em rápido crescimento e com forte suporte oficial da Microsoft.
 
-### Highlights
-- Intelligent automatic waiting, reducing the need for manual waitFor.
-- Network interception and simulation for API testing and complex scenarios.
-- Integrated trace viewer, facilitating debugging.
-- Support for multiple languages (JavaScript, TypeScript, Python, C#, Java).
-- Native parallel execution, no grid required.
-
-<br/>
-
----
-<br/>
-
-This POC demonstrates the practical application of these resources through E2E scenarios, exploring parallelization, context isolation, and modern automation strategies.
+### Pontos de destaque
+- Espera automática inteligente, reduzindo a necessidade de waitFor manuais.
+- Interceptação e simulação de rede para testes de APIs e cenários complexos.
+- Visualizador de rastreamento (trace viewer) integrado, facilitando a depuração.
+- Suporte a múltiplas linguagens (JavaScript, TypeScript, Python, C#, Java).
+- Execução paralela nativa, sem necessidade de grid.
 
 <br/>
 
 ---
 <br/>
 
-# Proposed scenarios
+Esta POC demonstra a aplicação prática desses recursos por meio de cenários E2E, explorando paralelização, isolamento de contexto e estratégias modernas de automação.
 
-This Proof of Concept covers scenarios that demonstrate best practices, advanced Playwright features, and integration with modern automated testing pipelines.
+<br/>
+
+---
+<br/>
+
+# Cenários propostos
+
+Esta Prova de Conceito contempla cenários que demonstram boas práticas, recursos avançados do Playwright e integração com pipelines modernos de testes automatizados.
 
 ### [01] Page Object Model (POM) + Utils
-Organization of test code using POM for better maintainability, reuse, and separation of responsibilities, supported by shared utility functions.
+Organização do código de testes utilizando POM para melhor manutenibilidade, reutilização e separação de responsabilidades, com apoio de funções utilitárias compartilhadas.
 
-### [02] Data-Driven Testing
-Execution of data-driven tests, allowing validation of multiple scenarios from different input sets, increasing coverage with low maintenance costs.
+### [02] Testes Data-Driven
+Execução de testes orientados a dados, permitindo validação de múltiplos cenários a partir de diferentes conjuntos de entrada, aumentando a cobertura com baixo custo de manutenção.
 
-### [03] Authentication with Storage State
-Reuse of authentication state through storageState, reducing execution time and avoiding repetition of login flows.
+### [03] Autenticação com Storage State
+Reutilização de estado de autenticação por meio do storageState, reduzindo tempo de execução e evitando repetição de fluxos de login.
 
-### [04] API Interception
-Use of network interception to simulate API responses and ensure greater predictability and isolation of E2E tests.
+### [04] Interceptação de APIs
+Uso de interceptação de rede para simular respostas de APIs e garantir maior previsibilidade e isolamento dos testes E2E.
 
 <br/>
 
